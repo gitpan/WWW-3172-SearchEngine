@@ -1,0 +1,70 @@
+{
+   "abstract" : "An interface to a search engine index of pages crawled by WWW::3172::Crawler",
+   "author" : [
+      "Mike Doherty <doherty@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-3172-SearchEngine",
+   "no_index" : {
+      "directory" : [
+         "corpus"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30",
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dancer" : 0,
+            "Dancer::Plugin::Database" : 0,
+            "HTML::Entities" : 0,
+            "Lingua::Stem::Snowball" : 0,
+            "Lingua::StopWords" : 0,
+            "List::MoreUtils" : 0,
+            "Text::Unidecode" : 0,
+            "WWW::Form" : 0,
+            "perl" : "5.006",
+            "strict" : 0,
+            "warnings" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Dancer::Test" : 0,
+            "File::Find" : 0,
+            "File::Temp" : 0,
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/doherty/WWW-3172-SearchEngine/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/doherty/WWW-3172-SearchEngine.git",
+         "web" : "https://github.com/doherty/WWW-3172-SearchEngine"
+      }
+   },
+   "version" : "0.001"
+}
+
